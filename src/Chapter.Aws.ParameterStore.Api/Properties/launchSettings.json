@@ -1,0 +1,16 @@
+﻿{
+  "profiles": {
+    "Chapter.Aws.ParameterStore.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "https://localhost:5011",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AWS_ACCESS_KEY": "AKIA4L2PGWZ6OLHDYXX3",
+        "AWS_SECRET_KEY": "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",
+        "AWS_REGION": "sa-east-1",
+        "PARAMETER_STORE_PATH": "/dev/chapter"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Chapter.Aws.ParameterStore.Api
+build_property.ProjectDir = C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\

@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\Chapter.Aws.ParameterStore.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\Chapter.Aws.ParameterStore.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\Chapter.Aws.ParameterStore.Api.csproj",
+        "projectName": "Chapter.Aws.ParameterStore.Api",
+        "projectPath": "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\Chapter.Aws.ParameterStore.Api.csproj",
+        "packagesPath": "C:\\Users\\pablo.fonseca\\.nuget\\packages\\",
+        "outputPath": "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pablo.fonseca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.conexia.com.br/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.2, )"
+            },
+            "Amazon.Extensions.Configuration.SystemsManager": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
