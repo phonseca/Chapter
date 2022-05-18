@@ -14,8 +14,9 @@
     <SourceRoot Include="C:\Program Files\dotnet\sdk\NuGetFallbackFolder\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\pablo.fonseca\.nuget\packages\awssdk.core\3.7.6</PkgAWSSDK_Core>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\pablo.fonseca\.nuget\packages\awssdk.core\3.7.11.2</PkgAWSSDK_Core>
     <PkgAWSSDK_SimpleSystemsManagement Condition=" '$(PkgAWSSDK_SimpleSystemsManagement)' == '' ">C:\Users\pablo.fonseca\.nuget\packages\awssdk.simplesystemsmanagement\3.7.4.11</PkgAWSSDK_SimpleSystemsManagement>
+    <PkgAWSSDK_SecretsManager Condition=" '$(PkgAWSSDK_SecretsManager)' == '' ">C:\Users\pablo.fonseca\.nuget\packages\awssdk.secretsmanager\3.7.2.42</PkgAWSSDK_SecretsManager>
     <PkgAWSSDK_AppConfig Condition=" '$(PkgAWSSDK_AppConfig)' == '' ">C:\Users\pablo.fonseca\.nuget\packages\awssdk.appconfig\3.7.0.52</PkgAWSSDK_AppConfig>
   </PropertyGroup>
 </Project>

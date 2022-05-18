@@ -30,7 +30,7 @@
           "lib/netcoreapp3.1/AWSSDK.AppConfig.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.6": {
+      "AWSSDK.Core/3.7.11.2": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
@@ -52,6 +52,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {}
+        }
+      },
+      "AWSSDK.SecretsManager/3.7.2.42": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.11.2, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {}
         }
       },
       "AWSSDK.SimpleSystemsManagement/3.7.4.11": {
@@ -182,15 +194,15 @@
         "tools/uninstall.ps1"
       ]
     },
-    "AWSSDK.Core/3.7.6": {
-      "sha512": "uQUS+Vi3qIb8Ea/SXkuq8g2aQXO3VGGASOpXkoI8MkopdhhKhF13gysYftciG4Ye7xw4Lsz5Aimilzlho0fSAA==",
+    "AWSSDK.Core/3.7.11.2": {
+      "sha512": "p+iZkaC1OCWnbJtfR08KX8Wxzownf2LcOqjEjEdNu0I9cxhu7G14YzB4xSyRuIBBlicxbM39aRX32dwfL+s+dw==",
       "type": "package",
-      "path": "awssdk.core/3.7.6",
+      "path": "awssdk.core/3.7.11.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "awssdk.core.3.7.6.nupkg.sha512",
+        "awssdk.core.3.7.11.2.nupkg.sha512",
         "awssdk.core.nuspec",
         "lib/net35/AWSSDK.Core.dll",
         "lib/net35/AWSSDK.Core.pdb",
@@ -218,6 +230,33 @@
         "awssdk.extensions.netcore.setup.nuspec",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.pdb"
+      ]
+    },
+    "AWSSDK.SecretsManager/3.7.2.42": {
+      "sha512": "o/EnXMUyBYoTfVXxbZ4CRNtlXe485U/KdXNTMp9d3oR+y+Lm9eMKcHutH5MMlBxb5dbG0EZwQjtFs+Wmg/d7WQ==",
+      "type": "package",
+      "path": "awssdk.secretsmanager/3.7.2.42",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SecretsManager.CodeAnalysis.dll",
+        "awssdk.secretsmanager.3.7.2.42.nupkg.sha512",
+        "awssdk.secretsmanager.nuspec",
+        "lib/net35/AWSSDK.SecretsManager.dll",
+        "lib/net35/AWSSDK.SecretsManager.pdb",
+        "lib/net35/AWSSDK.SecretsManager.xml",
+        "lib/net45/AWSSDK.SecretsManager.dll",
+        "lib/net45/AWSSDK.SecretsManager.pdb",
+        "lib/net45/AWSSDK.SecretsManager.xml",
+        "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll",
+        "lib/netcoreapp3.1/AWSSDK.SecretsManager.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SecretsManager.xml",
+        "lib/netstandard2.0/AWSSDK.SecretsManager.dll",
+        "lib/netstandard2.0/AWSSDK.SecretsManager.pdb",
+        "lib/netstandard2.0/AWSSDK.SecretsManager.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "AWSSDK.SimpleSystemsManagement/3.7.4.11": {
@@ -370,6 +409,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AWSSDK.Extensions.NETCore.Setup >= 3.7.2",
+      "AWSSDK.SecretsManager >= 3.7.2.42",
       "Amazon.Extensions.Configuration.SystemsManager >= 3.0.0"
     ]
   },
@@ -420,6 +460,10 @@
           "AWSSDK.Extensions.NETCore.Setup": {
             "target": "Package",
             "version": "[3.7.2, )"
+          },
+          "AWSSDK.SecretsManager": {
+            "target": "Package",
+            "version": "[3.7.2.42, )"
           },
           "Amazon.Extensions.Configuration.SystemsManager": {
             "target": "Package",

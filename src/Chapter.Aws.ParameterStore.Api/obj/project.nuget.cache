@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Q6EzaxjvQajMRBxlg0whMX8suKB8BJ2mL3OLbSTtVtjqkKhRT0u5khyqxlU3HCiVOhnuAu87mdcXBiR2oB5+Lw==",
+  "dgSpecHash": "ey0YKGw3FLX4gyeLeNSXZlfkUFyO7RyEe6JnFdxSIfa3axBIJj3HUXih0jq2LVbVLQIzdh9wWU45/imWKuG/kw==",
   "success": true,
   "projectFilePath": "C:\\GIT\\_Testes\\Chapter-Aws-ParameterStore\\Chapter.Aws.ParameterStore.Api\\Chapter.Aws.ParameterStore.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\amazon.extensions.configuration.systemsmanager\\3.0.0\\amazon.extensions.configuration.systemsmanager.3.0.0.nupkg.sha512",
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.appconfig\\3.7.0.52\\awssdk.appconfig.3.7.0.52.nupkg.sha512",
-    "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.core\\3.7.6\\awssdk.core.3.7.6.nupkg.sha512",
+    "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.core\\3.7.11.2\\awssdk.core.3.7.11.2.nupkg.sha512",
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.2\\awssdk.extensions.netcore.setup.3.7.2.nupkg.sha512",
+    "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.secretsmanager\\3.7.2.42\\awssdk.secretsmanager.3.7.2.42.nupkg.sha512",
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\awssdk.simplesystemsmanagement\\3.7.4.11\\awssdk.simplesystemsmanagement.3.7.4.11.nupkg.sha512",
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.2\\microsoft.extensions.configuration.2.0.2.nupkg.sha512",
     "C:\\Users\\pablo.fonseca\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.2\\microsoft.extensions.configuration.abstractions.2.0.2.nupkg.sha512",

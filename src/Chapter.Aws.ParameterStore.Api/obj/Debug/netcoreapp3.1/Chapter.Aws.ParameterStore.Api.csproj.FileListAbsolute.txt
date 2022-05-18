@@ -24,3 +24,4 @@ C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\obj\Deb
 C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\obj\Debug\netcoreapp3.1\Chapter.Aws.ParameterStore.Api.dll
 C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\obj\Debug\netcoreapp3.1\Chapter.Aws.ParameterStore.Api.pdb
 C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\obj\Debug\netcoreapp3.1\Chapter.Aws.ParameterStore.Api.genruntimeconfig.cache
+C:\GIT\_Testes\Chapter-Aws-ParameterStore\Chapter.Aws.ParameterStore.Api\bin\Debug\netcoreapp3.1\AWSSDK.SecretsManager.dll

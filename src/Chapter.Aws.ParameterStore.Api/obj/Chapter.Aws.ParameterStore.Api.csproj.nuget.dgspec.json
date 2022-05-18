@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.7.2, )"
             },
+            "AWSSDK.SecretsManager": {
+              "target": "Package",
+              "version": "[3.7.2.42, )"
+            },
             "Amazon.Extensions.Configuration.SystemsManager": {
               "target": "Package",
               "version": "[3.0.0, )"

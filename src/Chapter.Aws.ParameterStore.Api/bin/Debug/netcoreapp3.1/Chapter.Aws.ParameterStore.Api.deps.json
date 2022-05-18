@@ -32,6 +32,7 @@
       "Chapter.Aws.ParameterStore.Api/1.0.0": {
         "dependencies": {
           "AWSSDK.Extensions.NETCore.Setup": "3.7.2",
+          "AWSSDK.SecretsManager": "3.7.2.42",
           "Amazon.Extensions.Configuration.SystemsManager": "3.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -343,7 +344,7 @@
       },
       "AWSSDK.AppConfig/3.7.0.52": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.6"
+          "AWSSDK.Core": "3.7.11.2"
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.AppConfig.dll": {
@@ -355,11 +356,11 @@
           "lib/netcoreapp3.1/AWSSDK.AppConfig.dll": {}
         }
       },
-      "AWSSDK.Core/3.7.6": {
+      "AWSSDK.Core/3.7.11.2": {
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.7.6.0"
+            "fileVersion": "3.7.11.2"
           }
         },
         "compile": {
@@ -368,7 +369,7 @@
       },
       "AWSSDK.Extensions.NETCore.Setup/3.7.2": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.6",
+          "AWSSDK.Core": "3.7.11.2",
           "Microsoft.Extensions.Configuration.Abstractions": "2.0.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "2.0.0"
@@ -383,9 +384,23 @@
           "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {}
         }
       },
+      "AWSSDK.SecretsManager/3.7.2.42": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.11.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.42"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SecretsManager.dll": {}
+        }
+      },
       "AWSSDK.SimpleSystemsManagement/3.7.4.11": {
         "dependencies": {
-          "AWSSDK.Core": "3.7.6"
+          "AWSSDK.Core": "3.7.11.2"
         },
         "runtime": {
           "lib/netcoreapp3.1/AWSSDK.SimpleSystemsManagement.dll": {
@@ -2140,12 +2155,12 @@
       "path": "awssdk.appconfig/3.7.0.52",
       "hashPath": "awssdk.appconfig.3.7.0.52.nupkg.sha512"
     },
-    "AWSSDK.Core/3.7.6": {
+    "AWSSDK.Core/3.7.11.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uQUS+Vi3qIb8Ea/SXkuq8g2aQXO3VGGASOpXkoI8MkopdhhKhF13gysYftciG4Ye7xw4Lsz5Aimilzlho0fSAA==",
-      "path": "awssdk.core/3.7.6",
-      "hashPath": "awssdk.core.3.7.6.nupkg.sha512"
+      "sha512": "sha512-p+iZkaC1OCWnbJtfR08KX8Wxzownf2LcOqjEjEdNu0I9cxhu7G14YzB4xSyRuIBBlicxbM39aRX32dwfL+s+dw==",
+      "path": "awssdk.core/3.7.11.2",
+      "hashPath": "awssdk.core.3.7.11.2.nupkg.sha512"
     },
     "AWSSDK.Extensions.NETCore.Setup/3.7.2": {
       "type": "package",
@@ -2153,6 +2168,13 @@
       "sha512": "sha512-iFjbEnVB0f6Hr8L3EfdelHG7zxVQrOmeP9UIrX3IODR1eTsrqVrmq0mazdIr0GZK1YG2/DZiVt6tNyV1bayndw==",
       "path": "awssdk.extensions.netcore.setup/3.7.2",
       "hashPath": "awssdk.extensions.netcore.setup.3.7.2.nupkg.sha512"
+    },
+    "AWSSDK.SecretsManager/3.7.2.42": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o/EnXMUyBYoTfVXxbZ4CRNtlXe485U/KdXNTMp9d3oR+y+Lm9eMKcHutH5MMlBxb5dbG0EZwQjtFs+Wmg/d7WQ==",
+      "path": "awssdk.secretsmanager/3.7.2.42",
+      "hashPath": "awssdk.secretsmanager.3.7.2.42.nupkg.sha512"
     },
     "AWSSDK.SimpleSystemsManagement/3.7.4.11": {
       "type": "package",
